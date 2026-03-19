@@ -1,0 +1,70 @@
+:root{
+    --borderWIP: 1px solid black;
+    --pink: #f9d7e1;
+    --brown: #9c766b;
+    --darkbrown: #58453f;
+    --milky: #fff8f0;
+}
+body{
+    background-image: url(/indexphotos/neopolitan\ background.jpg);
+    background-attachment: fixed;
+    font-family: 'Snapit-Mono', sans-serif;
+    font-size: 13px;
+    color: #241d1b;
+}
+@font-face {
+    font-family: 'spirit';
+    src: url(https://file.garden/Z1NrfbbjjD-R7zcB/fonts/Spirit.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'unchanged';
+    src: url(https://file.garden/Z1NrfbbjjD-R7zcB/fonts/unchanged.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {                  
+    font-family: 'CHNOPixel-Italic';
+    src: url(https://humantooth.neocities.org/fonts/CHNOPixelCodePro-Italic.woff), format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {                  
+    font-family: 'Snapit-Mono';
+    src: url(https://humantooth.neocities.org/fonts/SnapitMono-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Hawaii Lover';
+    font-weight: normal;
+    font-style: normal;
+    src: url(https://file.garden/Z1NrfbbjjD-R7zcB/fonts/HawaiiLover.ttf);
+}
+
+
+::selection{
+    background-color: var(--pink);
+    color: #15100f;
+}
+
+a::selection{
+    color: blue;
+}
+
+.wrap{
+    background-color: var(--milky);
+    background-size: 30%;
+    width: 70rem;
+    margin: auto;
+    height: 113rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--pink);
+    box-shadow: 1px 1px 10px var(--brown);
+}
