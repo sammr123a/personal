@@ -62,9 +62,191 @@ a::selection{
     background-size: 30%;
     width: 70rem;
     margin: auto;
-    height: 113rem;
+    height: 88rem;
     padding: 1rem;
     border-radius: 12px;
     border: 1px solid var(--pink);
     box-shadow: 1px 1px 10px var(--brown);
 }
+
+header{
+    border: 1px solid var(--pink);
+    box-shadow: inset 0px 0px 15px #d5b0a6cf;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 2em;
+    background-image: url(/indexphotos/headerfrosting.jpg);
+    background-size: cover;
+    height: 13rem;
+}
+
+header h1{
+    color: #8e756e;
+    font-family: 'Hawaii Lover';
+    font-size: 12rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    margin-top: -0.5rem;
+    text-shadow: 1px 1px 5px #b68f84b5;
+}
+
+/* navbar left section */
+
+.navbar{
+    width: 12 rem;
+    height: 100%;
+}
+nav{
+    width:18rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--pink);
+}
+nav h2{
+    font-family: 'Hawaii Lover';
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #58432e;
+    color: var(--pink);
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav h3{
+    font-family: 'spirit';
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-top: 5px;
+    color: var(--milky);
+    background-color: #705437;
+}
+nav a{
+    padding: 0.8rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a.pink {
+    background-color: #ffd3dd;
+    box-shadow: inset 0px 1px 5px #eabac6;
+    color: var(--darkbrown);
+}
+
+nav a.brown{
+    background-color: #8f7262;
+    box-shadow: inset 0px 1px 5px #ac7a6e;
+    color: var(--milky);
+}
+
+nav a.yellow{
+    background-color: antiquewhite;
+    box-shadow: inset 0px 1px 5px #e9c8a4;
+    color: var(--darkbrown);
+}
+
+nav a:hover{
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.border-icecream{
+    border: 1px solid var(--pink);
+    box-shadow: inset 0px 0px 15px #d5b0a6cf;
+    width: 18rem;
+    height: 29rem;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+.icecream-sign{
+    margin: -39px 10px 90px -20px;
+    width:110%;
+}
+.display-inputs{
+    background-color: #ffffff;          /* 🔥 gives it a box feel */
+    border: 1px solid #ceb5c0;          /* outline */
+    border-radius: 1px;                 /* rounded edges */
+
+    padding: 5px 8px;
+    margin-bottom: 3px;
+
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+    font-family: 'snapit-mono';
+    font-size: 10px;
+    color: #0f0707;
+
+    display: block; 
+}
+#listStuff {
+    background-color:#eaf0f2;
+    margin: -99px 0 -100px -1px;
+    border-right: 8px solid #d32570;
+    border-left: 8px solid #d32570;
+    width:16.3rem;
+    height: 11.5rem;
+    overflow-y: scroll;
+   
+}
+#listStuff::-webkit-scrollbar {
+    width: 10px;
+}
+
+#listStuff::-webkit-scrollbar-track {
+    background: #f6dde6; /* light pink */
+}
+
+#listStuff::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ff9ec4, #d32570);
+    border-radius: 10px;
+}
+
+#listStuff::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#340d1c, #611b38);
+}
+.input-1{
+    margin: 80px 0 0 3px;
+    background-color: #57382b;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #4a2c24;
+    width: 17.3rem;
+    height: 1.9rem;
+    font-family:'snapit-mono';
+    color: var(--milky);
+}
+.input-1::placeholder{
+    color: var(--milky);
+    font-family:'snapit-mono';
+    font-size: 13px;
+    padding-left: 5px;
+}
+.input-1-submit{
+    background-color: #4a2c24;
+    border: 1px solid #4a2c24;
+    width: 17.67rem;
+    margin-left:3px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-1-submit:hover{
+    background-color: #57382b;
+    border: 1px solid #4a2c24;
+    width: 17.67rem;
+    margin-left:3px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+}
+.icecart{
+    margin: 0 0 0 5px;
+    width:17.3rem;
+}
+
